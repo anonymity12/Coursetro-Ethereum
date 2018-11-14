@@ -1,6 +1,15 @@
 # Coursetro-Ethereum
 a app run on ethereum Ropsten test net
 
+## keywords
+
+- Ethereum
+- Solidity
+- Smart Contract
+- MetaMask
+- Lite-Server
+- Ropsten Test Net
+
 ## what u will see 
 
 write ur date(in this demo, u set a man's name and age)
