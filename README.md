@@ -1,5 +1,5 @@
 # Coursetro-Ethereum
-a app run on ethereum Ropsten test net
+a DApp run on ethereum Ropsten test net
 
 ## keywords
 
