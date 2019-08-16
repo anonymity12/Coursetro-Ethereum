@@ -1,5 +1,15 @@
 # Coursetro-Ethereum
+
 a DApp run on ethereum Ropsten test net
+
+希望这是个打卡的app，永久记录一些text的app
+
+# 在线使用
+
+https://anonymity12.github.io/Coursetro-Ethereum/
+
+# 本地使用：
+
 
 ## usage
 
@@ -8,7 +18,7 @@ a DApp run on ethereum Ropsten test net
 ![img](./img/npmRunDev.jpg)
 
 
-## keywords
+# keywords
 
 - Ethereum
 - Solidity
