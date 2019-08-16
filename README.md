@@ -1,6 +1,13 @@
 # Coursetro-Ethereum
 a DApp run on ethereum Ropsten test net
 
+## usage
+
+在仓库目录下 使用 `npm run dev` 你会看到：
+
+![img](./img/npmRunDev.jpg)
+
+
 ## keywords
 
 - Ethereum
@@ -14,8 +21,9 @@ a DApp run on ethereum Ropsten test net
 
 write ur date(in this demo, u set a man's name and age)
 
-![](https://ws1.sinaimg.cn/large/005JrW9Kgy1fx7zurbv11j31eo17sn1n.jpg)
+![testYOurCode](./img/test1.jpg)
 
-u can view the transaction at https://ropsten.etherscan.io, a sample transaction related to my contract location: 0xf04c722841e9eef2fd0baef517d7193bc730df06
+u can view the transaction at https://ropsten.etherscan.io, a sample transaction related to my contract location: 
 
-![](https://ws1.sinaimg.cn/large/005JrW9Kgy1fx7zvuc1nqj31iw0fs77u.jpg)
+https://ropsten.etherscan.io/tx/0x4f66ee948daa0bfcbfba57e1dfa36e82da353b0c3949b261cafd7c51558fb2f8
+

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+listen<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -42,35 +42,35 @@
        // Our future code here..
        if (typeof web3 !== 'undefined') {
         web3 = new Web3(web3.currentProvider);
-       }else{
+    }else{
         web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
-       }
+    }
        //合约的账户是0号账户
        web3.eth.defaultAccount = web3.eth.accounts[0];
        //合约的abi粘贴过来的哦
        var CoursetroContract = web3.eth.contract([
-    {
+       {
         "constant": true,
         "inputs": [
-            {
-                "name": "_address",
-                "type": "address"
-            }
+        {
+            "name": "_address",
+            "type": "address"
+        }
         ],
         "name": "getInstructor",
         "outputs": [
-            {
-                "name": "",
-                "type": "uint256"
-            },
-            {
-                "name": "",
-                "type": "bytes16"
-            },
-            {
-                "name": "",
-                "type": "bytes16"
-            }
+        {
+            "name": "",
+            "type": "uint256"
+        },
+        {
+            "name": "",
+            "type": "bytes16"
+        },
+        {
+            "name": "",
+            "type": "bytes16"
+        }
         ],
         "payable": false,
         "stateMutability": "view",
@@ -81,10 +81,10 @@
         "inputs": [],
         "name": "getInstructors",
         "outputs": [
-            {
-                "name": "",
-                "type": "address[]"
-            }
+        {
+            "name": "",
+            "type": "address[]"
+        }
         ],
         "payable": false,
         "stateMutability": "view",
@@ -93,17 +93,17 @@
     {
         "constant": true,
         "inputs": [
-            {
-                "name": "",
-                "type": "uint256"
-            }
+        {
+            "name": "",
+            "type": "uint256"
+        }
         ],
         "name": "instructorAccts",
         "outputs": [
-            {
-                "name": "",
-                "type": "address"
-            }
+        {
+            "name": "",
+            "type": "address"
+        }
         ],
         "payable": false,
         "stateMutability": "view",
@@ -114,10 +114,10 @@
         "inputs": [],
         "name": "countInstructors",
         "outputs": [
-            {
-                "name": "",
-                "type": "uint256"
-            }
+        {
+            "name": "",
+            "type": "uint256"
+        }
         ],
         "payable": false,
         "stateMutability": "view",
@@ -126,22 +126,22 @@
     {
         "constant": false,
         "inputs": [
-            {
-                "name": "_address",
-                "type": "address"
-            },
-            {
-                "name": "_age",
-                "type": "uint256"
-            },
-            {
-                "name": "_fName",
-                "type": "bytes16"
-            },
-            {
-                "name": "_lName",
-                "type": "bytes16"
-            }
+        {
+            "name": "_address",
+            "type": "address"
+        },
+        {
+            "name": "_age",
+            "type": "uint256"
+        },
+        {
+            "name": "_fName",
+            "type": "bytes16"
+        },
+        {
+            "name": "_lName",
+            "type": "bytes16"
+        }
         ],
         "name": "setInstructor",
         "outputs": [],
@@ -152,26 +152,26 @@
     {
         "anonymous": false,
         "inputs": [
-            {
-                "indexed": false,
-                "name": "fName",
-                "type": "bytes16"
-            },
-            {
-                "indexed": false,
-                "name": "lName",
-                "type": "bytes16"
-            },
-            {
-                "indexed": false,
-                "name": "age",
-                "type": "uint256"
-            }
+        {
+            "indexed": false,
+            "name": "fName",
+            "type": "bytes16"
+        },
+        {
+            "indexed": false,
+            "name": "lName",
+            "type": "bytes16"
+        },
+        {
+            "indexed": false,
+            "name": "age",
+            "type": "uint256"
+        }
         ],
         "name": "instructorInfo",
         "type": "event"
     }
-]);
+    ]);
        //合约的地址
        var Coursetro = CoursetroContract.at('0xf04c722841e9eef2fd0baef517d7193bc730df06');
        console.log(Coursetro);
@@ -186,7 +186,7 @@
             else
                 console.error(error);
         });
-*/
+        */
 
         var instructorEvent = Coursetro.instructorInfo({}, 'latest');
 
